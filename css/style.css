@@ -8,7 +8,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
   color: #262c27;
 }
 a {
@@ -24,17 +24,24 @@ h6,
 p {
   margin: 0;
 }
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
 .container {
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
 }
+/* HEADER */
 .header {
   background-image: url(../images/header_bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
   background-position: center;
+  margin-bottom: 80px;
 }
 .header::before {
   content: "";
@@ -122,13 +129,13 @@ p {
 }
 .header__decor-text {
   position: absolute;
-  bottom: 25px;
+  bottom: 0px;
   color: #0093a1;
 }
 .header__decor-text--one {
   z-index: 1;
   right: 145px;
-  bottom: 130px;
+  bottom: 100px;
 }
 .header__decor-text--one,
 .header__decor-text--two {
@@ -142,7 +149,7 @@ p {
 .header__decor-text--two {
   z-index: 4;
   left: 265px;
-  bottom: 0;
+  bottom: -24px;
 }
 
 .header__decor-text--three {
@@ -154,4 +161,121 @@ p {
   font-size: 32px;
   line-height: 1.22;
   text-align: center;
+}
+/* MAIN */
+/* SECTION INFO */
+.info {
+  background-image: url(../images/specs_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.info::before {
+  content: "";
+  position: absolute;
+  height: 130px;
+  background-color: #262c27;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-120px);
+  z-index: 1;
+}
+.info__top {
+  display: flex;
+  gap: 80px;
+  padding-top: 100px;
+  margin-bottom: 70vh;
+}
+.info__top-text {
+  padding-top: 245px;
+  width: 290px;
+  color: #fff;
+}
+.info__top-img {
+  position: relative;
+  z-index: 6;
+}
+.popap-btn {
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.popap-btn span {
+  color: #fff;
+  padding-top: 12px;
+  display: block;
+}
+.info__wrapper {
+  position: relative;
+}
+.info-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.info__top-text--two {
+  border-bottom: 1px solid #fff;
+}
+.info__top-text--one {
+  padding-bottom: 110px;
+}
+.info__specs {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+.info_specs-title {
+  text-transform: uppercase;
+  font-family: "Comfortaa", cursive;
+  font-size: 60px;
+  line-height: 1.12;
+  width: 260px;
+}
+.info__specs-list {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 30px 0;
+  width: 565px;
+  font-weight: 700;
+}
+.info__specs-items {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 25px;
+}
+.info__specs-caption {
+  text-transform: uppercase;
+  width: 185px;
+}
+/* SECTION BUY */
+.buy__inner {
+  display: flex;
+  margin-top: 150px;
+}
+.buy__title {
+  text-transform: uppercase;
+  font-family: "Comfortaa", cursive;
+
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1.12;
+  color: #0093a1;
+}
+.buy__list {
+  margin-top: 50px;
+  gap: 115px;
+  max-width: 48%;
+}
+
+.buy__item-title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.buy__item:not(:last-child) {
+  margin-bottom: 25px;
 }
