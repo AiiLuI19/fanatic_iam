@@ -296,7 +296,7 @@ ul {
 }
 .buy__price {
   position: absolute;
-  right: 0;
+  right: -15px;
   bottom: 130px;
 
   width: 201px;
