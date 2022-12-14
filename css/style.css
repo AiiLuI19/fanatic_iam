@@ -343,24 +343,25 @@ ul {
 }
 /* SECTION TECHNOLOGY */
 .techonology__top {
-  height: 100vh;
+  height: 1369px;
 
   background-image: url(../images/Group\ 20.png);
   background-position: center;
   background-repeat: no-repeat;
 
-  background-size: cover;
+  background-size: contain;
 }
 .techonology__top-inner {
-  padding-top: 60%;
+  padding-top: 50%;
 }
 .techonology-btn {
   margin-bottom: 154px;
-  margin-left: 75%;
+  margin-left: 70%;
 }
 .techonology__title {
   width: 20%;
   margin-bottom: 62px;
+
   text-transform: uppercase;
   font-family: "Comfortaa", cursive;
   font-weight: 400;
