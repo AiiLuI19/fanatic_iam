@@ -341,3 +341,64 @@ ul {
   border-color: #b9c400;
   color: #262c27;
 }
+/* SECTION TECHNOLOGY */
+.techonology__top {
+  height: 100vh;
+
+  background-image: url(../images/Group\ 20.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.techonology__top-inner {
+  padding-top: 60%;
+}
+.techonology-btn {
+  margin-bottom: 154px;
+  margin-left: 75%;
+}
+.techonology__title {
+  width: 20%;
+  margin-bottom: 62px;
+  text-transform: uppercase;
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1.12;
+}
+.techonology__list {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.techonology__list-item {
+  margin-bottom: 13px;
+}
+.gallery-min__list,
+.gallery-max__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* GALLERY */
+.gallery__box {
+  display: flex;
+}
+.gallery-min__list {
+  width: 68%;
+  border: 3px solid #262c27;
+  border-radius: 200px 0px 300px;
+  padding: 72px 0 28px 31px;
+}
+.gallery__text {
+  margin-top: 114.5px;
+  margin-right: 68px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+}
+.gallery-min__item {
+  padding-right: 30px;
+  padding-bottom: 24px;
+}
