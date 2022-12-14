@@ -384,17 +384,26 @@ ul {
 /* GALLERY */
 .gallery__box {
   display: flex;
+  position: relative;
+  margin-bottom: 409px;
 }
 .gallery-min__list {
-  width: 68%;
+  position: absolute;
+  right: -1%;
+  width: 66%;
+  bottom: -85%;
   border: 3px solid #262c27;
   border-radius: 200px 0px 300px;
   padding: 72px 0 28px 31px;
+  z-index: 2;
+}
+.gallery-min__item {
+  z-index: 1;
 }
 .gallery__text {
   margin-top: 114.5px;
   margin-right: 68px;
-
+  width: 30%;
   font-weight: 400;
   font-size: 18px;
   line-height: 120%;
