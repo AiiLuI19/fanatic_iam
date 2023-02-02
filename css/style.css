@@ -46,7 +46,7 @@ img {
 }
 /* HEADER */
 .header {
-  background-image: url(../images/header_bg.jpg);
+  background-image: url(../images/зображення_viber_2023-02-02_15-11-51-627.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -84,7 +84,7 @@ img {
 .header__top {
   display: flex;
   align-items: center;
-  padding: 57px 0;
+  padding: 30px 0;
   gap: 100px;
   justify-content: flex-end;
   font-family: "Comfortaa", cursive;
@@ -112,7 +112,7 @@ img {
 }
 .header__content {
   position: relative;
-  min-height: calc(100vh - 161px);
+  min-height: calc(100vh - 215px);
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -175,7 +175,7 @@ img {
 /* MAIN */
 /* SECTION INFO */
 .info {
-  background-image: url(../images/specs_bg.jpg);
+  background-image: url(../images/bg3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -229,8 +229,8 @@ img {
   color: #0093a1;
 }
 .popap-btn:hover {
-  fill: #b9c400;
-  stroke: #b9c400;
+  fill:rgb(38, 44, 39);;
+  stroke: rgb(38, 44, 39);;
 }
 .info__wrapper {
   position: relative;
@@ -240,9 +240,11 @@ img {
   right: 0;
 }
 .info__top-text--two {
-  border-bottom: 1px solid #fff;
+  color:#212121;
+  border-bottom: 1px solid #212121;
 }
 .info__top-text--one {
+  color:#212121;
   padding-bottom: 110px;
 }
 .info__specs {
@@ -364,14 +366,23 @@ img {
 }
 /* SECTION TECHNOLOGY */
 .techonology {
+  margin-top: 150px;
   margin-bottom: 150px;
+  position: relative;
 }
 .techonology__top {
-  background-image: url(../images/Group\ 20.png);
+  /* background-image: url(../images/Group\ 20.png); */
+  background-image: url(../images/bg2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
   background-size: cover;
+}
+.techonology_decor{
+  position: absolute;
+  top:-170px;
+ 
+  /* fill="#262C27" */
 }
 .techonology__top-inner {
   position: relative;
@@ -393,8 +404,10 @@ img {
   padding-left: 0;
   width: 20%;
   margin-bottom: 62px;
+  color:#fff;
 }
 .techonology__list {
+  color:#fff;
   padding-left: 20px;
   font-weight: 700;
   font-size: 20px;
@@ -416,7 +429,7 @@ img {
   display: grid;
   gap: 30px 24px;
   grid-template-columns: 481px 208px;
-  grid-template-rows: 432px 300px;
+  grid-template-rows: 360px 340px;
   margin-top: -35%;
   margin-bottom: 150px;
   padding: 72px 31px 52px 31px;
@@ -460,7 +473,7 @@ img {
   grid-column: 2/-1;
 }
 .gallery-max__text {
-  background-color: #0093a1;
+  background-color: #212121;
   border-radius: 0px 0px 0px 200px;
 
   font-style: italic;
@@ -557,8 +570,10 @@ img {
 .footer__logo {
   align-self: flex-start;
   fill: #fff;
+
   transition: fill 0.3s;
 }
+
 .footer__logo:hover {
   fill: #0093a1;
 }
